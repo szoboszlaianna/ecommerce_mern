@@ -1,5 +1,6 @@
 {
     "git.ignoreLimitWarning": true,
     "editor.formatOnSave": true,
-    "syntax.highlightComment
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
 }
