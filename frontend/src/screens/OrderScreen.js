@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 import { getOrderDetails } from '../actions/orderActions';
-import { orderCreateReducer } from '../reducers/orderReducers';
 
 const OrderScreen = ({ match }) => {
   const orderId = match.params.id;
